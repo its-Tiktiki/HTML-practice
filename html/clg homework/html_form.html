@@ -1,36 +1,52 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Feedback Form</title>
+
+    <style>
+        body {
+            background-color: #417441;
+        }
+
+        h1 {
+            color: rgb(0, 0, 0);
+        }
+        
+    </style>
 </head>
+
 <body>
+
+    <h1>Feedback Form</h1>
+
     <form>
         <label>Name:</label>
-        <input type="text" name="name">
+        <input type="text" name="name" placeholder="Enter your name">
 
         <br><br>
 
         <label>Email:</label>
-        <input type="email" name="email">
+        <input type="email" name="email" placeholder="Enter your email">
 
         <br><br>
 
         <label>Password:</label>
-        <input type="password" name="password">
+        <input type="password" name="password" placeholder="Enter your password">
 
         <br><br>
 
         <label>Feedback:</label>
         <br>
-        <textarea name="feedback"
-        rows="10" cols="50"></textarea>
+        <textarea name="feedback" rows="10" cols="50"
+        placeholder="Write your feedback here..."></textarea>
 
         <br><br>
 
         <input type="submit" value="Submit">
     </form>
-    
+
 </body>
 </html>
